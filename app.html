@@ -42,10 +42,10 @@
                     <a class="nav-link" href="code.html">The Code</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#">Git Repo</a>
+                    <a class="nav-link" target="_blank" href="https://github.com/jsambedoy">Git Repo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#">About</a>
+                    <a class="nav-link" target="_blank" href="https://jsbwebdev.netlify.app">About</a>
                 </li>
             </ul>
         </div>
@@ -72,7 +72,7 @@
                                 <input id="startValue" type="number" class="form-control" placeholder="Start Value" value=0 arial-label="Start Value">
                             </div>
                             <div class="col">
-                                <input id="startValue" type="number" class="form-control" placeholder="Start Value" value=100 arial-label="End Value">
+                                <input id="endValue" type="number" class="form-control" placeholder="End Value" value=100 arial-label="End Value">
                             </div>
                             <div class="col-12 d-flex justify-content-end">
                                 <button id="btnSubmit" type="button" class="btn btn-dark btn-lg">Display Hundrey</button>
@@ -83,6 +83,7 @@
                             <table class="table table-striped table-sm">
                                 <tbody id="results">
                                     <!--Results Go Here-->
+                                    
                                 </tbody>
                             </table>
                         </div>
@@ -105,9 +106,9 @@
                 </div>
                 <div class="col d-flex align-items-center justify-content-start justify-content-lg-end">
                     <div class="row">
-                        <div class="col social"><a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></div>
-                        <div class="col social"><a href="#" target="_blank"><i class="fa fa-github fa-2x"></i></a></div>
-                        <div class="col social"><a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></div>
+                        <div class="col social"><a href="https://www.linkedin.com/in/jsambed/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></div>
+                        <div class="col social"><a href="https://github.com/jsambedoy" target="_blank"><i class="fa fa-github fa-2x"></i></a></div>
+                        <div class="col social"><a href="https://twitter.com/JSB_WEB_DEV" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></div>
                     </div>
                 </div>
             </div>
@@ -117,7 +118,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
-    <script src="js/site.js"></script>
+    <script src="/js/site.js"></script>
+    <script>
+        document.getElementById("btnSubmit").addEventListener("click", getValues);
+    </script>
 </body>
 
 </html>
