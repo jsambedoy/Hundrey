@@ -1,8 +1,18 @@
 :root {
-    --primary-color: rgb(100, 0, 255);
+    --primary-color: hsl(271, 40%, 40%);
     --secondary-color: rgb(0, 255, 55);
     --dark-color: hsl(240, 64%, 27%);
     --white-color: whitesmoke;
+}
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logoFont {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-style: italic;
 }
 
 body {
